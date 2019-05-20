@@ -1,0 +1,92 @@
+.banner{
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+}
+
+.production{
+    padding-top: 66px;
+    height: 144px;
+    text-align: center;
+}
+.proText{
+    position: relative;
+}
+.proText h5{
+    color: #05469e;
+    font-size: 30px;
+    line-height: 33px;
+}
+.proText p{
+    color: #142f54;
+    font-size: 20px;
+    line-height: 23px;
+}
+.proLine1{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+.proLine2{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.address h4{
+    height: 145px;
+    line-height: 145px;
+    font-size: 24px;
+    text-align: center;
+    color: #142f54;
+}
+.addressInfo{
+    overflow: hidden;
+    height: 74px;
+    line-height: 24px;
+    font-family: 宋体;
+    font-size: 14px;
+    color: #142f54;
+}
+.infoL{
+    float: left;
+    padding-left: 20px;
+}
+.infoR{
+    float: right;
+    padding-right: 20px;
+}
+
+.recruitment{
+    height:1713px;
+}
+.mainInfo{
+    height: 513px;
+    overflow: hidden;
+}
+.reInfo{
+    width: 577px;
+    height: 513px;
+    float: left;
+    background: url("../images/contact_bg.png") no-repeat left top;
+    padding-left: 23px;
+}
+.reInfo h3{
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 19px;
+    color: #ff8534;
+}
+.reInfo h4{
+    font-size: 16px;
+    line-height: 31px;
+    padding-top: 13px;
+}
+.reInfo p{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 宋体;
+    color: #666666;
+}

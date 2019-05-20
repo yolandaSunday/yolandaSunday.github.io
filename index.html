@@ -2,12 +2,302 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>我的新作品</title>
+    <title>中都首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        @media screen and (min-width: 1500px){
+            .banner{
+                height: 640px;
+            }
+            .banner .d2{
+                top: 70%;
+            }
+        }
+    </style>
+    <script src="http://siteapp.baidu.com/static/webappservice/uaredirect.js"></script>
+    <script type="text/javascript">uaredirect("http://m.zjcentek.com/");</script>
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/base.js"></script>
 </head>
 <body>
-<div>
-    我的新作品。
-</div>
+<header>
+    <div class="inner">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png"></a>
+        </div>
+        <ul class="nav">
+            <li class="active"><a href="index.html">首页</a></li>
+            <li><a href="data.html">产品与服务</a>
+                <div class="navP">
+                    <div class="inner">
+                        <ul>
+                            <li> <a href="data.html">大数据</a></li>
+                            <li><a href="system.html">系统集成</a></li>
+                            <li><a href="hardware.html">智能硬件</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="news.html">业界动态</a>
+                <div  class="navY">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="news.html">业界动态</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="about.html">关于中都</a>
+                <div class="navA">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="about.html#introduction">公司简介</a></li>
+                            <li><a href="about.html#core">核心技术团队</a></li>
+                            <li><a href="about.html#partner">合作伙伴</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="contact.html">联系我们</a>
+                <div class="navC">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="contact.html#contactUs">联系我们</a></li>
+                            <li><a href="contact.html#employment">招贤纳士</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</header>
+<section class="banner" id="banner">
+    <div class="d1"><img src="images/index_banner1.jpg" alt=""></div>
+    <div class="d1"><img src="images/index_banner2.jpg" alt=""></div>
+    <div class="d1"><img src="images/index_banner3.jpg" alt=""></div>
+    <div class="d2" id="banner_id">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</section>
+<section class="production">
+    <div class="inner">
+        <div class="proText">
+            <div class="proLine1"><img src="images/proLine1.png"></div>
+            <h5>产品与服务</h5>
+            <p>Product and Service</p>
+            <div class="proLine2"><img src="images/proLine1.png"></div>
+        </div>
+    </div>
+</section>
+<section id="prolist">
+    <div class="proTnner">
+        <div class="pro">
+            <img src="images/proIcon1.png">
+            <h5>大数据</h5>
+            <p>为各行业客户提供个性化的大数据解决方案，满足客户从海量数据中，实时高效地挖掘数据潜在价值，提升企业经营决策水平</p>
+            <div class="proBtn">
+                <a href="data.html">查看详情</a>
+            </div>
+        </div>
+        <div class="pro">
+            <img src="images/proIcon2.png">
+            <h5>系统集成</h5>
+            <p>通过结构化的综合布线系统和计算机网络
+                技术，将各个分离的设备、功能和信息等
+                集成到相互关联的、统一和协调的系统中，使资源达到充分共享，实现集中高效便利的管理</p>
+            <div class="proBtn">
+                <a href="system.html">查看详情</a>
+            </div>
+        </div>
+        <div class="pro last">
+            <img src="images/proIcon3.png">
+            <h5>智能硬件</h5>
+            <p>通过软硬件结合的方式，让其拥有智能化的功能。
+                智能化之后，硬件具备连接的能力，实现互联网
+                服务的加载，形成“云+端”的典型架构，具备了大数据等附加价值</p>
+            <div class="proBtn">
+                <a href="hardware.html">查看详情</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about">
+    <div class="inner">
+        <div class="proText">
+            <div class="proLine1"><img src="images/proLine1.png"></div>
+            <h5>关于中都</h5>
+            <p>About CENTEK</p>
+            <div class="proLine2"><img src="images/proLine1.png"></div>
+        </div>
+        <div class="aboutPic">
+            <div class="aboutList1">
+                <div class="shade"></div>
+                <img src="images/aboutIcon1.png">
+                <a href="about.html#introduction">公司介绍</a>
+            </div>
+            <div class="aboutList2">
+                <div class="shade"></div>
+                <img src="images/aboutIcon2.png">
+                <a href="about.html#core">核心技术团队</a>
+            </div>
+            <div class="aboutList3">
+                <div class="shade"></div>
+                <img src="images/aboutIcon3.png">
+                <a href="about.html#partner">合作伙伴</a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footT">
+        <div class="inner">
+            <div class="footL">
+                <div class="detail">
+                    <h4>首页</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>产品与服务</h4>
+                    <ul>
+                        <li><a href="data.html">大数据</a></li>
+                        <li><a href="system.html">系统集成</a></li>
+                        <li><a href="hardware.html">智能硬件</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>业界动态</h4>
+                    <ul>
+                        <li><a href="news.html">业界动态</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>关于中都</h4>
+                    <ul>
+                        <li><a href="about.html#introduction">公司介绍</a></li>
+                        <li><a href="about.html#core">核心技术团队</a></li>
+                        <li><a href="about.html#partner">合作伙伴</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><a href="contact.html#contactUs">联系我们</a></li>
+                        <li><a href="contact.html#employment">招贤纳士</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footR">
+                <div class="item">
+                    <img src="images/footerLogo.png">
+                    <h5><a href="#">浙江中都信息技术有限公司</a></h5>
+                </div>
+                <div class="item">
+                    <img src="images/footerCode.png">
+                    <h5><a href="http://m.zjcentek.com/">扫一扫进入”手机版”</a></h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footB">
+        <div class="inner">
+            <div class="footBL">
+               <p>Copyright @2016 浙江中都信息技术有限公司 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  All rights reserved. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  浙ICP备16032163号</p>
+            </div>
+            <div class="footBR">
+                <p>客服热线：0575-88028888 &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp  联系我们</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    $(function(){
+        //轮播设置开始
+        function banner(){
+            var bn_id=0;
+            var bn_id2=1;
+            var speed=3000;
+            var qhjg=1;
+            var timer;
+            $("#banner .d1").hide();
+            $("#banner .d1").eq(0).fadeIn("slow");
+            //当轮播图大于1张，出现小小标签
+            if($("#banner .d1").length>1){
+                //第一个小标签为默认状态
+                $("#banner_id li").eq(0).addClass("num");
+                function lunBo(){
+                    bn_id2=bn_id+1;
+                    if(bn_id2>($("#banner .d1").length-1)){
+                        bn_id2=0;
+                    }
+                    $("#banner .d1").eq(bn_id2).fadeIn("slow");
+                    $("#banner .d1").eq(bn_id).fadeOut(2000);
+
+                    $("#banner .d1").eq(bn_id).css("z-index","2");
+                    $("#banner .d1").eq(bn_id2).css("z-inex","1");
+
+                    $("#banner_id li").removeClass("num");
+                    $("#banner_id li").eq(bn_id2).addClass("num");
+                    bn_id=bn_id2;
+                };
+                timer=setInterval(lunBo,speed);
+
+                //小标签
+                $("#banner_id li").click(function(){
+                    var bn_id3=$("#banner_id li").index(this);
+                    if((bn_id3!=bn_id)&&qhjg==1){
+                        qhjg=0;
+                        $("#banner .d1").eq(bn_id).css("z-index","2");
+                        $("#banner .d1").eq(bn_id3).css("z-index","1");
+                        $("#banner .d1").eq(bn_id3).fadeIn("slow");
+                        $("#banner .d1").eq(bn_id).fadeOut(2000,function(){
+                            qhjg=1;
+                        })
+                        $("#banner_id li").removeClass("num");
+                        $("#banner_id li").eq(bn_id3).addClass("num");
+                        bn_id=bn_id3;
+                    }
+                });
+                $("#banner_id").hover(function(){
+                    clearInterval(timer);
+                },function(){
+                    timer=setInterval(lunBo,speed);
+                });
+            }else {
+                $("#banner_id").hide();
+            }
+        }
+        banner();
+
+        //prolist悬停效果
+        $('.pro').hover(function(){
+            var index=$(this).index()+4;
+            var src="images/proIcon"+index+".png";
+            $(this).find('img').attr('src',src)
+            $(this).find('div.proBtn').css("background","url('images/indexBtnBg2.png') no-repeat left top");
+        },function(){
+            var index=$(this).index()+1;
+            var src="images/proIcon"+index+".png";
+            $(this).find('img').attr('src',src)
+            $(this).find('div.proBtn').css("background","url('images/indexBtnBg1.png') no-repeat left top");
+        })
+
+        //about遮罩层hover效果
+        $('.aboutList1,.aboutList2,.aboutList3').hover(function(){
+            $(this).find('div.shade').css("display","none");
+        },function (){
+            $(this).find('div.shade').css("display","block");
+        })
+
+    })
+</script>
 </body>
 </html>

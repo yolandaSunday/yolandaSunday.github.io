@@ -1,0 +1,62 @@
+.banner {
+    width: 100%;
+    text-align: center;
+}
+.banner img {
+    width: 100%;
+}
+.sLine{
+    height: 32px;
+    background:url("../images/systemLine.png") repeat-x left;
+    margin-top: 10px;
+}
+
+.systemWrap{
+    text-align: center;
+    height: 778px;
+    transition: all 1s;
+}
+.systemWrap h3{
+    font-size: 34px;
+    line-height: 133px;
+    color: #194fa1;
+    font-family: 微软雅黑;
+}
+.systemWrap p{
+    text-align: left;
+    font-family: 宋体;
+    font-size: 14px;
+    line-height: 27px;
+    padding: 0 18px 78px;
+    color: #666666;
+}
+.systemList{
+    overflow: hidden;
+}
+.systemL{
+    float: left;
+    width: 600px;
+    height: 355px;
+    background: url("../images/systemListBg.png") no-repeat left top;
+}
+.systemIcon{
+    height: 169px;
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+.systemL h4{
+    font-size: 24px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.systemL h4 a{
+    color: #2e5ba6;
+}
+.systemL p{
+    font-size: 14px;
+    font-family: 宋体;
+    line-height: 25px;
+    color: #666666;
+    padding: 0 21px;
+}

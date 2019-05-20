@@ -1,0 +1,119 @@
+.banner {
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.production {
+    padding-top: 66px;
+    height: 144px;
+    text-align: center;
+}
+
+.proText {
+    position: relative;
+}
+
+.proText h5 {
+    font-family: 微软雅黑;
+    color: #05469e;
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.proText p {
+    color: #142f54;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.proLine1 {
+    position: absolute;
+    left: 0px;
+    top: 15px;
+}
+
+.proLine2 {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+}
+
+.newList {
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    overflow: hidden;
+}
+
+.newL {
+    float: left;
+}
+
+.newL img {
+    margin-top: 28px;
+    margin-left: 26px;
+}
+
+.newR {
+    padding-right: 40px;
+    width: 679px;
+    float: right;
+}
+.newR h3{
+    font-size: 24px;
+    color: #2561ad;
+    padding-top: 34px;
+    line-height: 37px;
+}
+.newR h5{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 40px;
+    color: #626466;
+}
+.newR p,.newR span,.newR a{
+    font-family: 宋体;
+    font-size: 14px;
+    line-height: 25px;
+    color: #999999;
+}
+.newR p{
+    padding-bottom: 14px;
+}
+.newR a{
+    float: right;
+}
+.pageNum{
+    border: 1px solid #999999;
+    border-radius: 4px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    text-align: center;
+    width: 41px;
+    font-size: 12px;
+    margin: 55px auto 76px;
+}
+.pageNum li{
+    float: left;
+}
+.pageNum li a{
+    color: #666666;
+    display: block;
+    padding: 0 17px;
+    border-right: 1px solid #999999;
+}
+.pageNum li a:hover{
+    background-color: #75b0ff;
+    color: #FFFFff;
+}
+.pageNum .pageLast a{
+    border-right:none;
+}
+.pageNum .pActive a{
+    background-color: #e7e7e7;
+}

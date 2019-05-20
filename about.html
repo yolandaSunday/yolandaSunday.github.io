@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于中都</title>
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/base.js"></script>
+    <style>
+        .banner{
+            width: 100%;
+            text-align: center;
+        }
+        .banner img{
+            width: 100%;
+        }
+
+        .production{
+            padding-top: 84px;
+            height: 134px;
+            text-align: center;
+        }
+        .proText{
+            position: relative;
+        }
+        .proText h5{
+            font-family: 微软雅黑;
+            color: #05469e;
+            font-size: 28px;
+            line-height: 33px;
+        }
+        .proText p{
+            color: #142f54;
+            font-size: 20px;
+            line-height: 23px;
+        }
+        .proLine1{
+            position: absolute;
+            left: 0px;
+            top: 15px;
+        }
+        .proLine2{
+            position: absolute;
+            right: 0px;
+            top: 15px;
+        }
+
+        .profile{
+            height: 830px;
+            background: url("images/aboutProfile_bg.png") no-repeat center;
+        }
+        .profile h4{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 95px;
+            padding-top: 3px;
+            color: #013883;
+        }
+        .profile p{
+            line-height: 25px;
+            font-size: 14px;
+            font-family: 宋体;
+            color: #666666;
+            padding: 0 17px;
+        }
+        .profile span{
+            font-family: 微软雅黑;
+            font-size: 16px;
+            color: #000000;
+        }
+        .profilePic{
+            text-align: center;
+            padding-top: 44px;
+        }
+        .team{
+            margin-top: 9px;
+            height: 1181px;
+            background-color: #c9c9cb;
+        }
+        .teamList{
+            overflow: hidden;
+        }
+        .teamList.top{
+            margin-bottom: 20px;
+        }
+        .teamM{
+            float: left;
+            width: 399px;
+            height: 580px;
+            background-color: #aeafb4;
+            border-right: 1px solid #c9c9cb;
+        }
+        .teamM.mLast{
+            border-right: 0;
+        }
+        .teamPic{
+            text-align: center;
+            margin: 27px 0 15px;
+        }
+        .teamM h5{
+            color: #FFFFff;
+            text-align: center;
+            font-size: 24px;
+            line-height: 68px;
+            width: 320px;
+            margin: 0 auto;
+            border-bottom: 1px solid #FFFFff;
+        }
+        .teamM p{
+            font-family: 宋体;
+            line-height: 21px;
+            color: #FFFFff;
+            padding:18px 24px 0;
+            font-size: 12px;
+        }
+        .teamM.spe{
+            background-color: #898989;
+        }
+        .brand{
+            text-align: center;
+            padding-bottom: 235px;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="inner">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png"></a>
+        </div>
+        <ul class="nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="data.html">产品与服务</a>
+                <div class="navP">
+                    <div class="inner">
+                        <ul>
+                            <li> <a href="data.html">大数据</a></li>
+                            <li><a href="system.html">系统集成</a></li>
+                            <li><a href="hardware.html">智能硬件</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="news.html">业界动态</a>
+                <div  class="navY">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="news.html">业界动态</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="active"><a href="about.html">关于中都</a>
+                <div class="navA">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="about.html#introduction">公司简介</a></li>
+                            <li><a href="about.html#core">核心技术团队</a></li>
+                            <li><a href="about.html#partner">合作伙伴</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="contact.html">联系我们</a>
+                <div class="navC">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="contact.html#contactUs">联系我们</a></li>
+                            <li><a href="contact.html#employment">招贤纳士</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</header>
+<section class="banner">
+    <img src="images/about_banner.jpg">
+</section>
+<a name="introduction"></a>
+<section class="production">
+    <div class="inner">
+        <div class="proText">
+            <div class="proLine1"><img src="images/proLine1.png"></div>
+            <h5>公司简介</h5>
+            <p>Company Profile</p>
+            <div class="proLine2"><img src="images/proLine1.png"></div>
+        </div>
+    </div>
+</section>
+<section class="profile">
+    <div class="inner">
+        <h4>浙江中都信息技术有限公司</h4>
+        <p style="text-indent: 28px"><span>浙江中都信息技术有限公司</span>&nbsp;坐落于绍兴市国家高新技术产业开发区,是一家专注于大数据技术与应用服务、系统应用集成，物联网智能软硬结合开发的高科技企业。 <br>
+            公司以人为本整合国内外优秀人才，以海纳百川的胸怀吸引海内外高层次人才，和上海理工大学合作建立院士工作站、博士后工作站，并协同合作行业领先院校和研究院。
+            中都信息致力于IT资源整合、人工智能大数据整合和运用，为智慧城市建设和人工智能、虚拟现实（VR)、增强现实（AR)等提供大数据整体优化解决方案。主营业务包括公共安全、智慧交通、健康医疗、车联网、其他相关物联网等行业信息化改造、升级，为智慧城市建设、政务信息管理、智能辅助驾驶、物联网智能终端、虚拟现实（VR)、增强现实（AR)、智慧医疗、磁悬浮轴承及磁悬浮人工心脏产品等领域。<br>
+        </p>
+        <p style="text-indent: 28px">
+            中都信息以“创新、协同、高效、求实”为企业精神”；把“立足客户，精益求精，合作共赢，服务社会”作为核心价值观；将“创新引领，人才强企，客户导向”作为发展战略。
+        </p>
+        <div class="profilePic">
+            <img src="images/aboutProfile_pic.png">
+        </div>
+    </div>
+</section>
+<a name="core"></a>
+<section class="production">
+    <div class="inner">
+        <div class="proText">
+            <div class="proLine1"><img src="images/proLine1.png"></div>
+            <h5>核心技术团队</h5>
+            <p>The Core Team</p>
+            <div class="proLine2"><img src="images/proLine1.png"></div>
+        </div>
+    </div>
+</section>
+<section class="team">
+    <div class="inner">
+        <div class="teamList top">
+            <div class="teamM">
+                <div class="teamPic">
+                    <img src="images/aboutTeam_1.png">
+                </div>
+                <h5>庄松林</h5>
+                <p style="text-indent: 2em">1995年当选为中国工程院院士。现任上海理工大学光学与电子信息工程学院院长、博士生导师，上海光学仪器研究所所长，清华大学、上海交通大学、复旦大学、浙江大学兼职教授，国际光学工程学会和美国光学学会资深会员，中国仪器仪表学会理事长，中国光学学会理事，探月计划专家组成员，曾任教育部仪器科学和技术教指委副主任。庄松林院士1962年毕业于复旦大学物理系；1962年至1979年在上海光学仪器研究所工作；1979年赴美国威恩密歇根州立大学作访问研究；1982年在美国宾夕法尼亚州立大学电子工程系获得博士学位；1983年回到上海光学仪器研究所，任所长、高级工程师；1988年至1992年任上海市激光技术研究所所长、研究员；1995年至今任上海理工大学光学与电子信息工程学院院长。</p>
+            </div>
+            <div class="teamM spe">
+                <div class="teamPic">
+                    <img src="images/aboutTeam_2.png">
+                </div>
+                <h5>冯望烟</h5>
+                <p style="text-indent: 2em">浙江大学毕业，美国德克萨斯A&M大学博士学位，曾担任美国赛门铁克技术总监并在惠普（Hewlett-Packard）和Expedia 旅行网担任主要技术职务。冯博士作为实战型数据科学家和数据科学架构师,兼具大数据工程技术,大数据处理能力并熟悉大数据算法，低概率事件预测，具有创新统计分析、机器学习算法及应用，领先的大数据工程技术，全新的关系数据可视化技术以及与机器学习算法的交互应用。他曾参与、推动、管理数亿美元的研发项目：ERP，数据仓及商业智能，自动流程和业务监控系统，电子商务支付系统，营销活动管理系统，欺诈检测与个性化设置的多渠道实时决策优化引擎。拥有研发、市场营销、电子商务、风险管理、信息安全等领域20多年的数据策略制定、数据存储及处理、元数据管理、数据驱动决策、数据创造价值、数据产品设计及开发经验。</p>
+
+            </div>
+            <div class="teamM mLast">
+                <div class="teamPic">
+                    <img src="images/aboutTeam_3.png">
+                </div>
+                <h5>夏木</h5>
+                <p style="text-indent: 2em">毕业于清华大学自动化系，获得美国德克萨斯大学信息系统博士学位，师从著名信息系统和电子商务专家Andrew B.Whinston教授。曾任美国硅谷圣克拉拉大学商学院信息系统助理教授、美国 NetApp公司（财富五百强）数据科学咨询专家、美国Adobe公司大数据科学咨询专家，在大数据解决方案领域有丰富的经验和深刻的见解。夏木博士有多项学术兼实用性的研究，得到阿里巴巴淘宝活水计划的支持。
+                </p>
+            </div>
+        </div>
+        <div class="teamList">
+            <div class="teamM spe">
+                <div class="teamPic">
+                    <img src="images/aboutTeam_4.png">
+                </div>
+                <h5>张大伟</h5>
+                <p style="text-indent: 2em">男 ，汉族，1977.6出生，教授，博导，上海理工大学教育部光学仪器与系统工程中心主任，研究领域是薄膜、光栅、微纳光学器件。2005年于中国科学院上海光学精密机械研究所获得光学工程博士学位；2012年于新加坡南洋理工大学做访问学者2年，入选上海市科技启明星和上海市曙光学者，获得省部级科技奖项3项。主持过国家自然科学基金、国家重大科学仪器设备研发专项、国家科技支撑计划等多项国家级课题，在OPTICS LETTERS,OPTICS EXPRESS等国际光学领域著名期刊发表SCI论文30余篇。
+            </div>
+            <div class="teamM">
+                <div class="teamPic">
+                    <img src="images/aboutTeam_5.png">
+                </div>
+                <h5>高秀敏</h5>
+                <p style="text-indent: 2em">2006年3月博士毕业后至今，任职于杭州电子科技大学，就聘于学校的科学研究岗位。2008年1至2010年6月期间在上海理工大学光学工程博士后流动站做博士后，庄松林院士是其导师。他探索了矢量光束的聚焦特性，包括两区域相位板对方位角偏振矢量光束焦点区域焦斑演化特性的影响、径向余弦波前相位分布的径向偏振光束聚焦特性、双曲余弦高斯光束焦点区域的暗焦斑产生和演化、双曲余弦高斯光束的焦平面上光梯度力可调节特性等。2011年5月至今被上海理工大学光电信息与计算机工程学院，特聘兼职副研究员和硕士生导师。
+                </p>
+
+            </div>
+            <div class="teamM spe mLast">
+                <div class="teamPic">
+                    <img src="images/aboutTeam_6.png">
+                </div>
+                <h5>秦萍</h5>
+                <p style="text-indent: 2em">瑞典哥德堡大学博士，美国未来资源研究所博士后。现为中国人民大学经济学院副教授，中国人民大学国家发展与战略研究院研究员，全球环境经济学科建设项目中国中心副主任。她有丰富的从事环境和能源经济学方面的研究经验，近年来有近二十篇研究成果在国际一流“环境和能源经济学”期刊上发表，先后主持了1项国家自然科学基金、5项国际合作项目以及1项省部级重点项目，参与其它国际、国内合作项目12个。</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<a name="partner"></a>
+<section class="production">
+    <div class="inner">
+        <div class="proText">
+            <div class="proLine1"><img src="images/proLine1.png"></div>
+            <h5>合作伙伴</h5>
+            <p>Partners</p>
+            <div class="proLine2"><img src="images/proLine1.png"></div>
+        </div>
+    </div>
+</section>
+<section class="brand">
+    <div class="inner">
+        <img src="images/aboutTeam_brand.png">
+    </div>
+</section>
+<footer>
+    <div class="footT">
+        <div class="inner">
+            <div class="footL">
+                <div class="detail">
+                    <h4>首页</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>产品与服务</h4>
+                    <ul>
+                        <li><a href="data.html">大数据</a></li>
+                        <li><a href="system.html">系统集成</a></li>
+                        <li><a href="hardware.html">智能硬件</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>业界动态</h4>
+                    <ul>
+                        <li><a href="news.html">业界动态</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>关于中都</h4>
+                    <ul>
+                        <li><a href="about.html#introduction">公司介绍</a></li>
+                        <li><a href="about.html#core">核心技术团队</a></li>
+                        <li><a href="about.html#partner">合作伙伴</a></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><a href="contact.html#contactUs">联系我们</a></li>
+                        <li><a href="contact.html#employment">招贤纳士</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footR">
+                <div class="item">
+                    <img src="images/footerLogo.png">
+                    <h5><a href="#">浙江中都信息技术有限公司</a></h5>
+                </div>
+                <div class="item">
+                    <img src="images/footerCode.png">
+                    <h5><a href="http://m.zjcentek.com/">扫一扫进入”手机版”</a></h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footB">
+        <div class="inner">
+            <div class="footBL">
+                <p>Copyright @2016 浙江中都信息技术有限公司 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  All rights reserved. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  浙ICP备16032163号</p>
+            </div>
+            <div class="footBR">
+                <p>客服热线：0575-88028888 &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp  联系我们</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
